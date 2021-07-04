@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/julong1988/jnpkg/compare/v1.0.5...v1.0.6) (2021-07-04)
+
+
+### Bug Fixes
+
+* **config:** tsconfig include, exclude 추가 ([449388e](https://github.com/julong1988/jnpkg/commit/449388edefb72d3e2b6b02adb1ece9379fa4555a))
+
 ## [1.0.5](https://github.com/julong1988/jnpkg/compare/v1.0.4...v1.0.5) (2021-07-04)
 
 

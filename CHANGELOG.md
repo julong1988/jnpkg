@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/julong1988/jnpkg/compare/v1.0.1...v1.0.2) (2021-07-04)
+
+
+### Bug Fixes
+
+* **package:** null2 ([c7fc683](https://github.com/julong1988/jnpkg/commit/c7fc68312573fa0d004f16a29d2e3abba516f6e0))
+
 ## [1.0.1](https://github.com/julong1988/jnpkg/compare/v1.0.0...v1.0.1) (2021-07-04)
 
 

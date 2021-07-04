@@ -19,13 +19,19 @@ const createTmpTsconfig = (outDir) => {
     ...subTsconfig,
     compilerOptions: {
       ...tsconfig.compilerOptions,
-      ...subTsconfig.compilerOptions,
-    }
+      ...(subTsconfig.compilerOptions || {}),
+    },
+    exclude: [
+      ...(subTsconfig.exclude || []),
+    ],
+    include: [
+      ...(subTsconfig.include || []),
+      subPath('./src'),
+    ]
   }
 
   // 옵션 설정.
   tsconfig.compilerOptions.outDir = subPath(outDir)
-  tsconfig.include = [subPath('./src')]
 
   if (outDir === 'es') {
     tsconfig.compilerOptions.module = 'ESNEXT';

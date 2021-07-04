@@ -13,12 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/FSD_JuLong/jnpkg.git"
+    "url": "https://github.com/julong1988/jnpkg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/julong1988/jnpkg/issues",
+    "email": "julong1988@naver.com"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/FSD_JuLong/jnpkg#readme",
+  "homepage": "https://github.com/julong1988",
   "dependencies": {
     "@babel/cli": "^7.14.5",
     "@babel/core": "^7.14.6",

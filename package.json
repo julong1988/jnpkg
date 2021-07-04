@@ -1,6 +1,6 @@
 {
   "name": "jnpkg",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "npm package container",
   "main": "dist/bin/index.js",
   "bin": {

@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/julong1988/jnpkg/compare/v1.0.4...v1.0.5) (2021-07-04)
+
+
+### Bug Fixes
+
+* **ignore:** npmignore수정 ([9740829](https://github.com/julong1988/jnpkg/commit/9740829a0c8d7e6ba5ff796c0855a3f23e240e41))
+
 ## [1.0.4](https://github.com/julong1988/jnpkg/compare/v1.0.3...v1.0.4) (2021-07-04)
 
 

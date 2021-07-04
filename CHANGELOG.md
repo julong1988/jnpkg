@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/julong1988/jnpkg/compare/v1.0.3...v1.0.4) (2021-07-04)
+
+
+### Bug Fixes
+
+* **ignore:** dist scripts white list ([dcebfa0](https://github.com/julong1988/jnpkg/commit/dcebfa0ddd241923d8c3a872eaab7c01dae4b65c))
+
 ## [1.0.3](https://github.com/julong1988/jnpkg/compare/v1.0.2...v1.0.3) (2021-07-04)
 
 

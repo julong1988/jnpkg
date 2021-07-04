@@ -7,7 +7,5 @@ buildEnv
 .eslintrc.js
 tmp
 .prettierrc
-package-lock.json
-tsconfig.json
 .releaserc.json
 .github

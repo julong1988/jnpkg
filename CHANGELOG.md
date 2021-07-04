@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/julong1988/jnpkg/compare/v1.0.6...v1.0.7) (2021-07-04)
+
+
+### Bug Fixes
+
+* **config:** tsconfig, ignore삭제 ([b472635](https://github.com/julong1988/jnpkg/commit/b4726359d7680a3af2a401a8bb5bdbc93c89d7d2))
+
 ## [1.0.6](https://github.com/julong1988/jnpkg/compare/v1.0.5...v1.0.6) (2021-07-04)
 
 

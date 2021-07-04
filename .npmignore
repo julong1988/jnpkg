@@ -8,3 +8,6 @@ buildEnv
 tmp
 .prettierrc
 package-lock.json
+tsconfig.json
+.releaserc.json
+.github

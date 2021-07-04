@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/julong1988/jnpkg/compare/v1.0.7...v1.0.8) (2021-07-04)
+
+
+### Bug Fixes
+
+* **build:** tsconfig tmp 파일 위치 변경 ([fdd3b4e](https://github.com/julong1988/jnpkg/commit/fdd3b4e7a2ad93108aa5d85acadfeb5d5289d227))
+
 ## [1.0.7](https://github.com/julong1988/jnpkg/compare/v1.0.6...v1.0.7) (2021-07-04)
 
 

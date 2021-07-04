@@ -1,5 +1,6 @@
 src
 scripts
+!dist/scripts
 node_modules
 todo.md
 buildEnv

@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/julong1988/jnpkg/compare/v1.0.8...v1.0.9) (2021-07-04)
+
+
+### Bug Fixes
+
+* **config:** tsconfig 파싱에러 콘솔로그 추가 ([75f6733](https://github.com/julong1988/jnpkg/commit/75f6733a95a0df5c9689085667d8f9c6129c8eaa))
+
 ## [1.0.8](https://github.com/julong1988/jnpkg/compare/v1.0.7...v1.0.8) (2021-07-04)
 
 

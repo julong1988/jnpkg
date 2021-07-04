@@ -12,8 +12,9 @@ const createTmpTsconfig = (outDir) => {
   let subTsconfig = {}
   try {
     subTsconfig = require(subPath('./tsconfig.json'));
-  } catch {}
-
+  } catch (error){
+    console.log('tsconfig.json parsing error')
+  }
   tsconfig = {
     ...tsconfig,
     ...subTsconfig,

@@ -41,7 +41,7 @@ const createTmpTsconfig = (outDir) => {
   }
 
   fs.writeFileSync(
-    rootPath('../tsconfig.tmp.json'),
+    subPath('./tsconfig.tmp.json'),
     new Uint8Array(Buffer.from(JSON.stringify(tsconfig)))
   );
 }

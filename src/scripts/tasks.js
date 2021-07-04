@@ -13,11 +13,11 @@ const buildLib = [
   },
   {
     title: 'create lib version',
-    task: () => execa(`${binPath}/tsc`, ['-build', rootPath('../tsconfig.tmp.json')])
+    task: () => execa(`${binPath}/tsc`, ['-build', subPath('./tsconfig.tmp.json')])
   },
   {
     title: 'remove tmp tsconfig',
-    task: () => execa('rm', ['-rf', rootPath('../tsconfig.tmp.json')])
+    task: () => execa('rm', ['-rf', subPath('./tsconfig.tmp.json')])
   },
   {
     title: 'minify lib',
@@ -36,11 +36,11 @@ const buildEs = [
   },
   {
     title: 'create es version',
-    task: () => execa(`${binPath}/tsc`, ['-build', rootPath('../tsconfig.tmp.json')])
+    task: () => execa(`${binPath}/tsc`, ['-build', subPath('./tsconfig.tmp.json')])
   },
   {
     title: 'remove tmp tsconfig',
-    task: () => execa('rm', ['-rf', rootPath('../tsconfig.tmp.json')])
+    task: () => execa('rm', ['-rf', subPath('./tsconfig.tmp.json')])
   },
   {
     title: 'minify es',

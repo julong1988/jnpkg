@@ -17,7 +17,7 @@ const scripts = {
 
 const command = Object.keys(scripts);
 
-// console.log(terminalLink('github - ', 'https://github.com/julong1988'));
+// console.log(terminalLink('github - ', 'https://github.com/jl917'));
 
 // arguments 지원하지 않은 경우
 if (argv._[0] && !command.includes(argv._[0])) {

@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/jl917/jnpkg/compare/v1.0.9...v1.0.10) (2021-11-13)
+
+
+### Bug Fixes
+
+* julong1988 => jl917 ([db34be3](https://github.com/jl917/jnpkg/commit/db34be3a536ff8386f30c86a9cfc8284bbd97e97))
+
 ## [1.0.9](https://github.com/jl917/jnpkg/compare/v1.0.8...v1.0.9) (2021-07-04)
 
 

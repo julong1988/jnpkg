@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/jl917/jnpkg/compare/v1.1.0...v1.1.1) (2021-11-16)
+
+
+### Bug Fixes
+
+* **doc:** readme파일 추가(영어, 중국어) ([8bc7a23](https://github.com/jl917/jnpkg/commit/8bc7a23bd62db617c813ad8ed7a4ed77677ae3e4))
+
 # [1.1.0](https://github.com/jl917/jnpkg/compare/v1.0.11...v1.1.0) (2021-11-16)
 
 

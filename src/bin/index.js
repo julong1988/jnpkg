@@ -1,7 +1,6 @@
 import { Select } from 'enquirer';
 import chalk from 'chalk';
 import minimist from 'minimist';
-// import terminalLink from 'terminal-link';
 import { execSync } from 'child_process';
 import path from 'path';
 
@@ -11,13 +10,10 @@ const binPath = path.resolve(__dirname, '../../node_modules/.bin');
 
 const scripts = {
   watch: `${binPath}/nodemon -e js,jsx,ts,tsx,json --watch ${path.resolve('./')}/src ${path.resolve(__dirname, '../scripts/build.js')}`,
-  build: `node ${path.resolve(__dirname, '../scripts/build.js')}`,
-  prepublish: `node ${path.resolve(__dirname, '../scripts/prepublish.js')}`,
+  build: `node ${path.resolve(__dirname, '../scripts/build.js')}`
 };
 
 const command = Object.keys(scripts);
-
-// console.log(terminalLink('github - ', 'https://github.com/jl917'));
 
 // arguments 지원하지 않은 경우
 if (argv._[0] && !command.includes(argv._[0])) {

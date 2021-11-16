@@ -1,4 +1,3 @@
-const fs = require('fs');
 const execa = require('execa');
 const { subPath, rootPath, binPath, createTmpTsconfig } = require('./utils');
 
@@ -53,39 +52,6 @@ const buildAllTasks = [
   ...buildEs
 ];
 
-let versionUpdateTasks = [];
-
-try {
-  const package = require(subPath('./package.json'));
-  versionUpdateTasks = [
-    {
-      title: 'package version update',
-      task: () => {
-        package.version = package.version.split('.').map((e, i) => i === 2 ? `${parseInt(e, 10) + 1}` : e).join('.');
-        fs.writeFileSync(
-          subPath('./package.json'),
-          new Uint8Array(Buffer.from(JSON.stringify(package, null, 2)))
-        );
-      },
-    },
-    {
-      title: '[Git] add package.json',
-      task: () => execa('git', ['add', 'package.json'])
-    },
-    {
-      title: '[Git] Commits next package version',
-      task: () => execa('git', ['commit', '-m', `Commits next package version: ${package.version}`])
-    },
-    {
-      title: '[Git] Push',
-      task: () => execa('git', ['push'])
-    },
-  ]
-} catch {
-  console.log('package error')
-}
-
 module.exports = {
   buildAllTasks,
-  versionUpdateTasks,
 }

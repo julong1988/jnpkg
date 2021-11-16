@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/jl917/jnpkg/compare/v1.0.10...v1.0.11) (2021-11-16)
+
+
+### Bug Fixes
+
+* **build:** release.yml node버전업 ([6c91ad3](https://github.com/jl917/jnpkg/commit/6c91ad39ab9ff48d9f351529c70c693e2feb2981)), closes [#8](https://github.com/jl917/jnpkg/issues/8)
+
 ## [1.0.10](https://github.com/jl917/jnpkg/compare/v1.0.9...v1.0.10) (2021-11-13)
 
 

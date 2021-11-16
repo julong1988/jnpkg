@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/jl917/jnpkg/compare/v1.0.11...v1.1.0) (2021-11-16)
+
+
+### Bug Fixes
+
+* 수동 버전업 제거 ([d6f11ef](https://github.com/jl917/jnpkg/commit/d6f11ef2145246d1d60d822709be3c206e2f3051))
+
+
+### Features
+
+* prepublish제거 ([52471f5](https://github.com/jl917/jnpkg/commit/52471f5c3c6bd468897e50f09125f6451025f9b2))
+
 ## [1.0.11](https://github.com/jl917/jnpkg/compare/v1.0.10...v1.0.11) (2021-11-16)
 
 

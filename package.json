@@ -28,7 +28,7 @@
   ],
   "author": "",
   "license": "MIT",
-  "homepage": "https://github.com/jl917#readme",
+  "homepage": "https://github.com/jl917/jnpkg#readme",
   "dependencies": {
     "@babel/cli": "^7.14.5",
     "@babel/core": "^7.14.6",

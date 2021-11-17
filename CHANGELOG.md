@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/jl917/jnpkg/compare/v1.1.1...v1.1.2) (2021-11-17)
+
+
+### Bug Fixes
+
+* **package:** package 업데이트, 라이센스 mit로 변경 ([eb14bce](https://github.com/jl917/jnpkg/commit/eb14bcec9f3e413a26f36988d93b54360af526e1))
+
 ## [1.1.1](https://github.com/jl917/jnpkg/compare/v1.1.0...v1.1.1) (2021-11-16)
 
 

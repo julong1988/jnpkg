@@ -1,3 +1,11 @@
+## [1.1.3](https://github.com/jl917/jnpkg/compare/v1.1.2...v1.1.3) (2021-11-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency execa to v6 ([3ec5a4b](https://github.com/jl917/jnpkg/commit/3ec5a4bc41c1f07be3f0f5a8c7767f69911efeeb))
+* execa버전 롤백 ([da25233](https://github.com/jl917/jnpkg/commit/da25233dba21fe77165aca21f6020fc452a6ba26))
+
 ## [1.1.2](https://github.com/jl917/jnpkg/compare/v1.1.1...v1.1.2) (2021-11-17)
 
 

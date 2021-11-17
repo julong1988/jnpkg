@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/jl917/jnpkg/compare/v1.1.3...v1.1.4) (2021-11-17)
+
+
+### Bug Fixes
+
+* **package:** homepage오류 수정 ([bfe2fd8](https://github.com/jl917/jnpkg/commit/bfe2fd8bfaa84272a75ccb12e57a792e8636c7b8))
+
 ## [1.1.3](https://github.com/jl917/jnpkg/compare/v1.1.2...v1.1.3) (2021-11-17)
 
 

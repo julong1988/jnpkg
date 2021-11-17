@@ -9,3 +9,4 @@ tmp
 .prettierrc
 .releaserc.json
 .github
+renovate.json

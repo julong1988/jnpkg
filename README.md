@@ -1,14 +1,25 @@
 
 <div align="right">
   Language:
-  <a title="English" href="./README.md">English</a>
-  <a title="Chinese" href="./README.zh-CN.md">中文</a>
-  <a title="Korean" href="./README.ko-KR.md">한국어</a>
+  <a title="English" href="./README.md">🇺🇸</a>
+  <a title="Chinese" href="./README.zh-CN.md">🇨🇳</a>
+  <a title="Korean" href="./README.ko-KR.md">🇰🇷</a>
 </div>
 
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+<h1 aligin="center">JNPKG</h1>
+
+[![semantic-release](https://img.shields.io/badge/semantic-release-e10079.svg?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 [![Package Quality](https://packagequality.com/shield/jnpkg.svg)](https://packagequality.com/#?package=jnpkg)
 ![license](https://img.shields.io/npm/l/jnpkg)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/jl917/jnpkg)
+![npmsio final](https://img.shields.io/npms-io/final-score/jnpkg)
+![GitHub Release Date](https://img.shields.io/github/release-date/jl917/jnpkg)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/jl917/jnpkg/Release)
+![Coveralls](https://img.shields.io/coveralls/github/jl917/jnpkg)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=jl917_jnpkg&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=jl917_jnpkg)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=jl917_jnpkg&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=jl917_jnpkg)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=jl917_jnpkg&metric=coverage)](https://sonarcloud.io/summary/new_code?id=jl917_jnpkg)
+
 
 This is a node module packaging tool, which supports Typescript and Standard Javascript languages.
 

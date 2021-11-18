@@ -15,6 +15,7 @@
 ![npmsio final](https://img.shields.io/npms-io/final-score/jnpkg)
 ![GitHub Release Date](https://img.shields.io/github/release-date/jl917/jnpkg)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/jl917/jnpkg/Release)
+![Coveralls](https://img.shields.io/coveralls/github/jl917/jnpkg)
 
 This is a node module packaging tool, which supports Typescript and Standard Javascript languages.
 

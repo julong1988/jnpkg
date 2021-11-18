@@ -6,9 +6,10 @@
   <a title="Korean" href="./README.ko-KR.md">한국어</a>
 </div>
 
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![semantic-release](https://img.shields.io/badge/semantic-release-e10079.svg?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 [![Package Quality](https://packagequality.com/shield/jnpkg.svg)](https://packagequality.com/#?package=jnpkg)
 ![license](https://img.shields.io/npm/l/jnpkg)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/jl917/jnpkg/Release)
 
 This is a node module packaging tool, which supports Typescript and Standard Javascript languages.
 

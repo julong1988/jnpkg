@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/jl917/jnpkg/compare/v1.1.4...v1.1.5) (2021-11-18)
+
+
+### Bug Fixes
+
+* eslint추가 ([6d5dc12](https://github.com/jl917/jnpkg/commit/6d5dc12b08c2d2c3c98b6fd647e92de515429112))
+
 ## [1.1.4](https://github.com/jl917/jnpkg/compare/v1.1.3...v1.1.4) (2021-11-17)
 
 

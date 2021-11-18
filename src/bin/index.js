@@ -25,17 +25,14 @@ if (argv._[0] && !command.includes(argv._[0])) {
   process.exit();
 }
 
-const run = async () => {
-  // eslint-disable-next-line
-  const result = !argv._[0]
-    ? await new Select({
-        name: 'type',
-        message: '실행할 이벤트를 선택하세요.',
-        choices: command,
-      }).run()
-    : argv._[0];
-  return result;
+const options = {
+  name: 'type',
+  message: '실행할 이벤트를 선택하세요.',
+  choices: command,
 };
+
+// eslint-disable-next-line
+const run = async () => !argv._[0] ? await new Select(options).run() : argv._[0];
 
 run()
   .then((option) => {

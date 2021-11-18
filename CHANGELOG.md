@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/jl917/jnpkg/compare/v1.1.5...v1.1.6) (2021-11-18)
+
+
+### Bug Fixes
+
+* arg => result var변경 ([c6be3d0](https://github.com/jl917/jnpkg/commit/c6be3d060f8c21d8eb511ee24ccb8bfa7f9412de))
+
 ## [1.1.5](https://github.com/jl917/jnpkg/compare/v1.1.4...v1.1.5) (2021-11-18)
 
 

@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/jl917/jnpkg/compare/v1.1.6...v1.1.7) (2021-11-18)
+
+
+### Bug Fixes
+
+* 코드 수정 ([1ed9c52](https://github.com/jl917/jnpkg/commit/1ed9c52fea64e598ea5f02939deaf9b37b2d548d))
+
 ## [1.1.6](https://github.com/jl917/jnpkg/compare/v1.1.5...v1.1.6) (2021-11-18)
 
 

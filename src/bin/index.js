@@ -27,14 +27,14 @@ if (argv._[0] && !command.includes(argv._[0])) {
 
 const run = async () => {
   // eslint-disable-next-line
-  const arg = !argv._[0]
+  const result = !argv._[0]
     ? await new Select({
         name: 'type',
         message: '실행할 이벤트를 선택하세요.',
         choices: command,
       }).run()
     : argv._[0];
-  return arg;
+  return result;
 };
 
 run()

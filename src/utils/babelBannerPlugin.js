@@ -4,7 +4,7 @@ const babelBannerPlugin = () => ({
       const { banner } = opts;
       path.addComment('leading', typeof banner !== 'string' ? '' : banner);
     },
-  }, 
+  },
 });
 
 module.exports = babelBannerPlugin;

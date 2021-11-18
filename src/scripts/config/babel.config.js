@@ -1,8 +1,6 @@
 const config = {
-  presets: [
-    'minify'
-  ],
-  plugins: []
+  presets: ['minify'],
+  plugins: [],
 };
 
 module.exports = config;

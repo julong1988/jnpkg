@@ -4,7 +4,7 @@ const { subPath, rootPath, binPath, createTmpTsconfig } = require('./utils');
 const buildLib = [
   {
     title: 'remove lib folder',
-    task: () => execa('rm', ['-rf', subPath('./lib')])
+    task: () => execa('rm', ['-rf', subPath('./lib')]),
   },
   {
     title: 'create tmp tsconfig',
@@ -12,22 +12,29 @@ const buildLib = [
   },
   {
     title: 'create lib version',
-    task: () => execa(`${binPath}/tsc`, ['-build', subPath('./tsconfig.tmp.json')])
+    task: () => execa(`${binPath}/tsc`, ['-build', subPath('./tsconfig.tmp.json')]),
   },
   {
     title: 'remove tmp tsconfig',
-    task: () => execa('rm', ['-rf', subPath('./tsconfig.tmp.json')])
+    task: () => execa('rm', ['-rf', subPath('./tsconfig.tmp.json')]),
   },
   {
     title: 'minify lib',
-    task: () => execa(`${binPath}/babel`, [subPath('./lib'), '--config-file', rootPath('../scripts/config/babel.config.js'), '--out-dir', subPath('./lib')])
+    task: () =>
+      execa(`${binPath}/babel`, [
+        subPath('./lib'),
+        '--config-file',
+        rootPath('../scripts/config/babel.config.js'),
+        '--out-dir',
+        subPath('./lib'),
+      ]),
   },
-]
+];
 
 const buildEs = [
   {
     title: 'remove es folder',
-    task: () => execa('rm', ['-rf', subPath('./es')])
+    task: () => execa('rm', ['-rf', subPath('./es')]),
   },
   {
     title: 'create tmp tsconfig',
@@ -35,23 +42,27 @@ const buildEs = [
   },
   {
     title: 'create es version',
-    task: () => execa(`${binPath}/tsc`, ['-build', subPath('./tsconfig.tmp.json')])
+    task: () => execa(`${binPath}/tsc`, ['-build', subPath('./tsconfig.tmp.json')]),
   },
   {
     title: 'remove tmp tsconfig',
-    task: () => execa('rm', ['-rf', subPath('./tsconfig.tmp.json')])
+    task: () => execa('rm', ['-rf', subPath('./tsconfig.tmp.json')]),
   },
   {
     title: 'minify es',
-    task: () => execa(`${binPath}/babel`, [subPath('./es'), '--config-file', rootPath('../scripts/config/babel.config.js'), '--out-dir', subPath('./es')])
+    task: () =>
+      execa(`${binPath}/babel`, [
+        subPath('./es'),
+        '--config-file',
+        rootPath('../scripts/config/babel.config.js'),
+        '--out-dir',
+        subPath('./es'),
+      ]),
   },
-]
-
-const buildAllTasks = [
-  ...buildLib,
-  ...buildEs
 ];
+
+const buildAllTasks = [...buildLib, ...buildEs];
 
 module.exports = {
   buildAllTasks,
-}
+};

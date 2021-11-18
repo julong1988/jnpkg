@@ -16,6 +16,10 @@
 ![GitHub Release Date](https://img.shields.io/github/release-date/jl917/jnpkg)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/jl917/jnpkg/Release)
 ![Coveralls](https://img.shields.io/coveralls/github/jl917/jnpkg)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=jl917_jnpkg&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=jl917_jnpkg)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=jl917_jnpkg&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=jl917_jnpkg)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=jl917_jnpkg&metric=coverage)](https://sonarcloud.io/summary/new_code?id=jl917_jnpkg)
+
 
 This is a node module packaging tool, which supports Typescript and Standard Javascript languages.
 

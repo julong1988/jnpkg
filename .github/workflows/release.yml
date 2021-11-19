@@ -26,7 +26,7 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
       - name: Run Tests
-        run:  npm run test
+        run:  npm run test:c
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
         env:

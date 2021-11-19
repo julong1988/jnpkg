@@ -3,11 +3,12 @@ module.exports = {
   parserOptions: {
     project: "./tsconfig.json",
   },
-  plugins: ['@typescript-eslint', 'prettier'],
+  plugins: ['@typescript-eslint', 'prettier', 'jest'],
   extends: [
     'eslint-config-airbnb-base',
     'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    "plugin:jest/recommended"
   ],
   env: {
     // 'browser': true,

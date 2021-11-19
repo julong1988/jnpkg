@@ -1,3 +1,12 @@
+## [1.1.8](https://github.com/jl917/jnpkg/compare/v1.1.7...v1.1.8) (2021-11-19)
+
+
+### Bug Fixes
+
+* babel plugin 테스트 케이스 작성 ([422fb1b](https://github.com/jl917/jnpkg/commit/422fb1b9cae2689c78d14d2a4e5ad06ba79ad532))
+* jest 환경 설정 ([6923cdb](https://github.com/jl917/jnpkg/commit/6923cdb6aae608d8ba9e3a39662692e856a8434b))
+* sonarcloud 환경 적용 ([c455af7](https://github.com/jl917/jnpkg/commit/c455af77a6040bd81cacf28fae83a7e9d7924d25))
+
 ## [1.1.7](https://github.com/jl917/jnpkg/compare/v1.1.6...v1.1.7) (2021-11-18)
 
 

@@ -11,3 +11,4 @@ tmp
 .github
 renovate.json
 .circleci
+sonar-project.properties

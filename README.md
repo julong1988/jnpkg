@@ -14,12 +14,12 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/jl917/jnpkg)
 ![npmsio final](https://img.shields.io/npms-io/final-score/jnpkg)
 ![GitHub Release Date](https://img.shields.io/github/release-date/jl917/jnpkg)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/jl917/jnpkg/Release)
-![Coveralls](https://img.shields.io/coveralls/github/jl917/jnpkg)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=jl917_jnpkg&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=jl917_jnpkg)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=jl917_jnpkg&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=jl917_jnpkg)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=jl917_jnpkg&metric=coverage)](https://sonarcloud.io/summary/new_code?id=jl917_jnpkg)
 ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/jnpkg)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/jl917/jnpkg/Release?label=GitHub%20Action%20build)
+![CircleCI](https://img.shields.io/circleci/build/gh/jl917/jnpkg?label=Circleci%20build)
 
 This is a node module packaging tool, which supports Typescript and Standard Javascript languages.
 

@@ -13,4 +13,16 @@ describe('babelHashbangPlugin', () => {
     // Assert
     expect(code).toBe('#!/usr/bin/env node\nvar a = 1;');
   });
+
+  test('script add hashbang node => no option', () => {
+    // Arrange
+    const source = 'var a = 1;';
+    const options = { plugins: [[babelHashbangPlugin]] };
+
+    // Acr
+    const { code } = transform(source, options);
+
+    // Assert
+    expect(code).toBe('#!/usr/bin/env node\nvar a = 1;');
+  });
 });

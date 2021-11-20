@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/jl917/jnpkg/compare/v1.2.1...v1.2.2) (2021-11-20)
+
+
+### Bug Fixes
+
+* ignore, readme업데이트 ([86bf48a](https://github.com/jl917/jnpkg/commit/86bf48af6ca74dcd6c1caf6cd619ee71c761c46a))
+
 ## [1.2.1](https://github.com/jl917/jnpkg/compare/v1.2.0...v1.2.1) (2021-11-20)
 
 

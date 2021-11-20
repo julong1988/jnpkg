@@ -8,6 +8,6 @@ module.exports = {
   moduleNameMapper: {
     "@/(.*)":  "<rootDir>/src/$1",
   },
-  setupFiles: ['<rootDir>/jest/setupFiles.js'],
+  setupFiles: ['<rootDir>/src/jest/setupFiles.js'],
   testResultsProcessor: 'jest-sonar-reporter',
 };

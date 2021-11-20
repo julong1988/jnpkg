@@ -1,5 +1,5 @@
-const path = require('path');
-const fs = require('fs');
+import path from 'path';
+import fs from 'fs';
 
 const rootPath = (filePath) => path.resolve(__dirname, filePath);
 const subPath = (filePath) => path.resolve(filePath);
@@ -42,7 +42,7 @@ const createTmpTsconfig = (outDir) => {
   );
 };
 
-module.exports = {
+export {
   rootPath,
   subPath,
   binPath,

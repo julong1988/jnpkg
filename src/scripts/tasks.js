@@ -1,5 +1,5 @@
-const execa = require('execa');
-const { subPath, rootPath, binPath, createTmpTsconfig } = require('./utils');
+import execa from 'execa';
+import { subPath, rootPath, binPath, createTmpTsconfig } from './utils';
 
 const buildLib = [
   {
@@ -63,6 +63,4 @@ const buildEs = [
 
 const buildAllTasks = [...buildLib, ...buildEs];
 
-module.exports = {
-  buildAllTasks,
-};
+export default buildAllTasks;

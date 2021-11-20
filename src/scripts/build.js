@@ -1,5 +1,5 @@
-const Listr = require('listr');
-const { buildAllTasks } = require('./tasks');
+import Listr from 'listr';
+import buildAllTasks from './tasks';
 
 const tasks = new Listr(buildAllTasks);
 

@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/jl917/jnpkg/compare/v1.2.0...v1.2.1) (2021-11-20)
+
+
+### Bug Fixes
+
+* cjs => es ([b3e1f6b](https://github.com/jl917/jnpkg/commit/b3e1f6bc227183f8f66d40ebca69040c8851b204))
+
 # [1.2.0](https://github.com/jl917/jnpkg/compare/v1.1.8...v1.2.0) (2021-11-20)
 
 

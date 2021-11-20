@@ -29,9 +29,10 @@ jobs:
           command: npm run test:c
       - sonarcloud/scan
 
-# Invoke jobs via workflows
-# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
+orbs:
+  sonarcloud: sonarsource/sonarcloud@1.0.0
 workflows:
-  orb-free-workflow:
+  main:
     jobs:
-      - test
+      - test:
+          context: sonarcloud

@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/jl917/jnpkg/compare/v1.1.8...v1.2.0) (2021-11-20)
+
+
+### Bug Fixes
+
+* jest expect테스트 케이스 작성, babel테스트 케이스 개선 ([4eb2b16](https://github.com/jl917/jnpkg/commit/4eb2b16fa7c30240a04b53bb40099b6e16572457))
+
+
+### Features
+
+* jest구조 변경 ([baa4691](https://github.com/jl917/jnpkg/commit/baa4691b36fb4c4f96b28fbc31b6541af1e6879e))
+
 ## [1.1.8](https://github.com/jl917/jnpkg/compare/v1.1.7...v1.1.8) (2021-11-19)
 
 

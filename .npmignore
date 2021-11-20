@@ -10,3 +10,4 @@ tmp
 .releaserc.json
 .github
 renovate.json
+.circleci

@@ -10,7 +10,7 @@ jobs:
           name: Install dependencies
           command: 'npm ci'
       - run:
-          name: Run Tests
+          name: Run Test
           command:  npm run test:c
       - sonarcloud/scan
 

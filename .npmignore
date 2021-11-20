@@ -12,3 +12,5 @@ tmp
 renovate.json
 .circleci
 sonar-project.properties
+README.md
+README.*.md

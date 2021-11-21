@@ -1,3 +1,12 @@
+## [1.2.3](https://github.com/jl917/jnpkg/compare/v1.2.2...v1.2.3) (2021-11-21)
+
+
+### Bug Fixes
+
+* upgrade multiple dependencies with Snyk ([ff8931a](https://github.com/jl917/jnpkg/commit/ff8931a17ce8a44ee68a706e7aef8acf36ccdc97))
+* upgrade nodemon from 2.0.7 to 2.0.14 ([6aa7fca](https://github.com/jl917/jnpkg/commit/6aa7fca86858e3b491587f4416dcb6ad748b4c64))
+* upgrade typescript from 4.3.4 to 4.4.4 ([36c8723](https://github.com/jl917/jnpkg/commit/36c87238cbc6812366858489e4f25c5f7cf26402))
+
 ## [1.2.2](https://github.com/jl917/jnpkg/compare/v1.2.1...v1.2.2) (2021-11-20)
 
 

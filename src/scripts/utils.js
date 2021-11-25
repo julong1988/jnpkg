@@ -31,8 +31,7 @@ const createTmpTsconfig = (outDir) => {
 
   if (outDir === 'es') {
     tsconfig.compilerOptions.module = 'ESNEXT';
-  }
-  if (outDir === 'lib') {
+  }else {
     tsconfig.compilerOptions.module = 'CommonJS';
   }
 

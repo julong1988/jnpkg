@@ -19,6 +19,7 @@ module.exports = {
     }
   },
   collectCoverageFrom: [
-    'src/**/*.{js,jsx}'
+    'src/**/*.{js,jsx}',
+    '!src/scripts/config/*.js'
   ]
 };

@@ -10,4 +10,15 @@ module.exports = {
   },
   setupFiles: ['<rootDir>/src/jest/setupFiles.js'],
   testResultsProcessor: 'jest-sonar-reporter',
+  coverageThreshold: {
+    global: {
+      branches: 100,
+      functions: 100,
+      lines: 100,
+      statements: 100,
+    }
+  },
+  collectCoverageFrom: [
+    'src/**/*.{js,jsx}'
+  ]
 };

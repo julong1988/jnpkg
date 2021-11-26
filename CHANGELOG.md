@@ -1,3 +1,12 @@
+## [1.2.4](https://github.com/jl917/jnpkg/compare/v1.2.3...v1.2.4) (2021-11-26)
+
+
+### Bug Fixes
+
+* collectCoverageFrom ignore추가 ([1cb8a1b](https://github.com/jl917/jnpkg/commit/1cb8a1be75d60b1e3d1deb151b15e1187b280128))
+* package.json 스크립트 추가 ([c587701](https://github.com/jl917/jnpkg/commit/c587701be74384578942c843296fd05beed49cf9))
+* tsconfig exclude추가 ([ad77e7f](https://github.com/jl917/jnpkg/commit/ad77e7f59e2c04eb034aa6514b116e3209484897))
+
 ## [1.2.3](https://github.com/jl917/jnpkg/compare/v1.2.2...v1.2.3) (2021-11-21)
 
 

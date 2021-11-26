@@ -13,7 +13,8 @@
     "lint": "eslint --ext .js ./src/",
     "fix": "eslint --fix --ext .js ./src/",
     "test": "jest",
-    "test:c": "jest --coverage"
+    "test:c": "jest --coverage",
+    "test:change": "jest --onlyChanged"
   },
   "repository": {
     "type": "git",

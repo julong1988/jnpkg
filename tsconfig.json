@@ -14,5 +14,9 @@
     "noImplicitAny": false,
     "removeComments": true,
     "resolveJsonModule": true
-  }
+  },
+  "exclude": [
+    "src/**/*.test.js",
+    "src/**/*.test.ts"
+  ]
 }

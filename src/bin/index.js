@@ -6,7 +6,17 @@ import path from 'path';
 
 const argv = minimist(process.argv.slice(2));
 
-const binPath = path.resolve(__dirname, '../../node_modules/.bin');
+const getBinPath = () => {
+  let binPath;
+  try {
+    binPath = path.resolve(__dirname, '../../node_modules/.bin');
+  } catch {
+    binPath = path.resolve(__dirname, '../../../.bin');
+  }
+  return binPath;
+}
+
+const binPath = getBinPath();
 const targetSrc = `${path.resolve('./')}/src`;
 const buildFile = `${path.resolve(__dirname, '../scripts/build.js')}`;
 

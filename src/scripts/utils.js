@@ -3,7 +3,18 @@ import fs from 'fs';
 
 const rootPath = (filePath) => path.resolve(__dirname, filePath);
 const subPath = (filePath) => path.resolve(filePath);
-const binPath = path.resolve(__dirname, '../../node_modules/.bin');
+
+const getBinPath = () => {
+  let binPath;
+  try {
+    binPath = path.resolve(__dirname, '../../node_modules/.bin');
+  } catch {
+    binPath = path.resolve(__dirname, '../../../.bin');
+  }
+  return binPath;
+}
+
+const binPath = getBinPath();
 
 const createTmpTsconfig = (outDir) => {
   // 메인 타입스크립트 가져오기

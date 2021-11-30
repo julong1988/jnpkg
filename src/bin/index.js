@@ -7,13 +7,9 @@ import path from 'path';
 const argv = minimist(process.argv.slice(2));
 
 const getBinPath = () => {
-  let binPath;
-  try {
-    binPath = path.resolve(__dirname, '../../node_modules/.bin');
-  } catch {
-    binPath = path.resolve(__dirname, '../../../.bin');
-  }
-  return binPath;
+  const globalPath = path.resolve(__dirname, '../../node_modules/.bin');
+  const localPath = path.resolve(__dirname, '../../../.bin');
+  return fs.lstatSync(globalPath).isDirectory() ? globalPath : localPath;
 }
 
 const binPath = getBinPath();

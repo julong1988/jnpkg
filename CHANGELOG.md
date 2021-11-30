@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/jl917/jnpkg/compare/v1.2.4...v1.2.5) (2021-11-30)
+
+
+### Bug Fixes
+
+* local설치 지원 ([f98d778](https://github.com/jl917/jnpkg/commit/f98d7783cb3137b03c20d82faefc7fb8f55a3e9c))
+
 ## [1.2.4](https://github.com/jl917/jnpkg/compare/v1.2.3...v1.2.4) (2021-11-26)
 
 

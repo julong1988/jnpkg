@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/jl917/jnpkg/compare/v1.2.6...v1.2.7) (2021-11-30)
+
+
+### Bug Fixes
+
+* fs import 오류 수정 ([cd91999](https://github.com/jl917/jnpkg/commit/cd91999f82f149261187d05e2df910c88e5a4620))
+
 ## [1.2.6](https://github.com/jl917/jnpkg/compare/v1.2.5...v1.2.6) (2021-11-30)
 
 

@@ -3,6 +3,7 @@ import chalk from 'chalk';
 import minimist from 'minimist';
 import { execSync } from 'child_process';
 import path from 'path';
+import fs from 'fs';
 
 const argv = minimist(process.argv.slice(2));
 

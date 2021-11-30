@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/jl917/jnpkg/compare/v1.2.5...v1.2.6) (2021-11-30)
+
+
+### Bug Fixes
+
+* global path오류 수정 ([858567c](https://github.com/jl917/jnpkg/commit/858567c38d928ce8741c456e9f56adec3518cefa))
+
 ## [1.2.5](https://github.com/jl917/jnpkg/compare/v1.2.4...v1.2.5) (2021-11-30)
 
 

@@ -7,7 +7,14 @@ const subPath = (filePath) => path.resolve(filePath);
 const getBinPath = () => {
   const globalPath = path.resolve(__dirname, '../../node_modules/.bin');
   const localPath = path.resolve(__dirname, '../../../.bin');
-  return fs.lstatSync(globalPath).isDirectory() ? globalPath : localPath;
+  let binPath;
+  try {
+    fs.lstatSync(globalPath).isDirectory()
+    binPath = globalPath;
+  } catch {
+    binPath = localPath;
+  }
+  return binPath;
 }
 
 const binPath = getBinPath();
@@ -38,7 +45,7 @@ const createTmpTsconfig = (outDir) => {
 
   if (outDir === 'es') {
     tsconfig.compilerOptions.module = 'ESNEXT';
-  }else {
+  } else {
     tsconfig.compilerOptions.module = 'CommonJS';
   }
 

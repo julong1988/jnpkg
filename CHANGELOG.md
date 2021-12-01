@@ -1,3 +1,24 @@
+## [1.2.19](https://github.com/jl917/jnpkg/compare/v1.2.18...v1.2.19) (2021-12-01)
+
+
+### Bug Fixes
+
+* pagkage name ([3558010](https://github.com/jl917/jnpkg/commit/3558010b4da769f2777d67e033e34a90939e40f0))
+
+## [1.2.18](https://github.com/jl917/jnpkg/compare/v1.2.17...v1.2.18) (2021-12-01)
+
+
+### Bug Fixes
+
+* update npmrc ([a66f74e](https://github.com/jl917/jnpkg/commit/a66f74e6312ca395f020b65438639ca76758b086))
+
+## [1.2.17](https://github.com/jl917/jnpkg/compare/v1.2.16...v1.2.17) (2021-12-01)
+
+
+### Bug Fixes
+
+* pacakgename변경 ([bc7bd65](https://github.com/jl917/jnpkg/commit/bc7bd65aa7b20e1475fbcc783e65e8708d184f11))
+
 ## [1.2.16](https://github.com/jl917/jnpkg/compare/v1.2.15...v1.2.16) (2021-12-01)
 
 

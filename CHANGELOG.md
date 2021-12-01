@@ -1,3 +1,10 @@
+## [1.2.10](https://github.com/jl917/jnpkg/compare/v1.2.9...v1.2.10) (2021-12-01)
+
+
+### Bug Fixes
+
+* 멀티 배포 ([cb7dc3e](https://github.com/jl917/jnpkg/commit/cb7dc3e4c9d502920371b841dfe79238b03621cc))
+
 ## [1.2.9](https://github.com/jl917/jnpkg/compare/v1.2.8...v1.2.9) (2021-12-01)
 
 

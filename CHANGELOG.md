@@ -1,3 +1,10 @@
+## [1.2.17](https://github.com/jl917/jnpkg/compare/v1.2.16...v1.2.17) (2021-12-01)
+
+
+### Bug Fixes
+
+* pacakgename변경 ([bc7bd65](https://github.com/jl917/jnpkg/commit/bc7bd65aa7b20e1475fbcc783e65e8708d184f11))
+
 ## [1.2.16](https://github.com/jl917/jnpkg/compare/v1.2.15...v1.2.16) (2021-12-01)
 
 

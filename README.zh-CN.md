@@ -47,6 +47,9 @@
 ## 安装
 
 ```sh
+# local
+npm install --save-dev jnpkg
+# global
 npm install -g jnpkg
 ```
 

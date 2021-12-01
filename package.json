@@ -72,6 +72,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com/jl917"
+    "registry": "https://npm.pkg.github.com/@jl917"
   }
 }

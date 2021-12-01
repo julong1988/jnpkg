@@ -1,3 +1,10 @@
+## [1.2.21](https://github.com/jl917/jnpkg/compare/v1.2.20...v1.2.21) (2021-12-01)
+
+
+### Bug Fixes
+
+* package name변경 ([8700b34](https://github.com/jl917/jnpkg/commit/8700b34e1881e548bb96e8004c040a3bcac41a43))
+
 ## [1.2.20](https://github.com/jl917/jnpkg/compare/v1.2.19...v1.2.20) (2021-12-01)
 
 

@@ -6,7 +6,9 @@
   <a title="Korean" href="./README.ko-KR.md">🇰🇷</a>
 </div>
 
-<h1 aligin="center">JNPKG</h1>
+<p aligin="center">
+  <img src="https://raw.githubusercontent.com/jl917/jnpkg/master/JNPKG.png" alt="jnpkg" width="450"/>
+</p>
 
 [![semantic-release](https://img.shields.io/badge/semantic-release-e10079.svg?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 [![Package Quality](https://packagequality.com/shield/jnpkg.svg)](https://packagequality.com/#?package=jnpkg)
@@ -46,6 +48,9 @@ To publish multiple modules to NPM, it is best to have a common packaging tool t
 ## Installation
 
 ```sh
+# local
+npm install --save-dev jnpkg
+# global
 npm install -g jnpkg
 ```
 

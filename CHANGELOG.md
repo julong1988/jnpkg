@@ -1,3 +1,10 @@
+## [1.2.18](https://github.com/jl917/jnpkg/compare/v1.2.17...v1.2.18) (2021-12-01)
+
+
+### Bug Fixes
+
+* update npmrc ([a66f74e](https://github.com/jl917/jnpkg/commit/a66f74e6312ca395f020b65438639ca76758b086))
+
 ## [1.2.17](https://github.com/jl917/jnpkg/compare/v1.2.16...v1.2.17) (2021-12-01)
 
 

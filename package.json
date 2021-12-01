@@ -1,6 +1,6 @@
 {
   "name": "jnpkg",
-  "version": "1.2.4",
+  "version": "1.2.11",
   "description": "npm module packing tool",
   "main": "dist/bin/index.js",
   "bin": {
@@ -72,6 +72,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com/@OWNER" 
+    "registry": "https://npm.pkg.github.com/@OWNER"
   }
 }

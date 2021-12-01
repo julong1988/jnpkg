@@ -1,5 +1,5 @@
 {
-  "name": "@jl917/jnpkg",
+  "name": "jnpkg",
   "version": "1.2.19",
   "description": "npm module packing tool",
   "main": "dist/bin/index.js",

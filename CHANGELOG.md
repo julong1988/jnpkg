@@ -1,3 +1,38 @@
+## [1.2.16](https://github.com/jl917/jnpkg/compare/v1.2.15...v1.2.16) (2021-12-01)
+
+
+### Bug Fixes
+
+* npmrc추가 ([e3b1f55](https://github.com/jl917/jnpkg/commit/e3b1f557fb460a7ca035ec864e36ec8eaea4cffe))
+
+## [1.2.15](https://github.com/jl917/jnpkg/compare/v1.2.14...v1.2.15) (2021-12-01)
+
+
+### Bug Fixes
+
+* readme update ([61810c0](https://github.com/jl917/jnpkg/commit/61810c08a701b1693ba3ede8d4066f04b586563c))
+
+## [1.2.14](https://github.com/jl917/jnpkg/compare/v1.2.13...v1.2.14) (2021-12-01)
+
+
+### Bug Fixes
+
+* registry수정 ([d4c2875](https://github.com/jl917/jnpkg/commit/d4c2875788bff47edb23e7ccc36ce7705903ecb5))
+
+## [1.2.13](https://github.com/jl917/jnpkg/compare/v1.2.12...v1.2.13) (2021-12-01)
+
+
+### Bug Fixes
+
+* package.json 업데이트 ([ff631f8](https://github.com/jl917/jnpkg/commit/ff631f8709047fd15d21284f3dd7c58cc249a06e))
+
+## [1.2.12](https://github.com/jl917/jnpkg/compare/v1.2.11...v1.2.12) (2021-12-01)
+
+
+### Bug Fixes
+
+* package.json registry수정 ([41b45eb](https://github.com/jl917/jnpkg/commit/41b45ebc3e071169e71f8c801ddd0497a26cdc62))
+
 ## [1.2.11](https://github.com/jl917/jnpkg/compare/v1.2.10...v1.2.11) (2021-12-01)
 
 

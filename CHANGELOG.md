@@ -1,3 +1,53 @@
+## [1.2.11](https://github.com/jl917/jnpkg/compare/v1.2.10...v1.2.11) (2021-12-01)
+
+
+### Bug Fixes
+
+* package registry추가 ([2df9aaf](https://github.com/jl917/jnpkg/commit/2df9aaf9765bb075463f152c3cbeca2a9ad83e4f))
+
+## [1.2.10](https://github.com/jl917/jnpkg/compare/v1.2.9...v1.2.10) (2021-12-01)
+
+
+### Bug Fixes
+
+* 멀티 배포 ([cb7dc3e](https://github.com/jl917/jnpkg/commit/cb7dc3e4c9d502920371b841dfe79238b03621cc))
+
+## [1.2.9](https://github.com/jl917/jnpkg/compare/v1.2.8...v1.2.9) (2021-12-01)
+
+
+### Bug Fixes
+
+* github, npm 멀티 배포 ([6b68b64](https://github.com/jl917/jnpkg/commit/6b68b64911c457f877161456141a9576ad0ce027))
+* npm token 추가 ([f802ce8](https://github.com/jl917/jnpkg/commit/f802ce866477afa3e993bec110ef180c7d1f1e71))
+
+## [1.2.8](https://github.com/jl917/jnpkg/compare/v1.2.7...v1.2.8) (2021-11-30)
+
+
+### Bug Fixes
+
+* 오류 수정 ([0dfe86d](https://github.com/jl917/jnpkg/commit/0dfe86d0c022a873a9d972411952773614723e5b))
+
+## [1.2.7](https://github.com/jl917/jnpkg/compare/v1.2.6...v1.2.7) (2021-11-30)
+
+
+### Bug Fixes
+
+* fs import 오류 수정 ([cd91999](https://github.com/jl917/jnpkg/commit/cd91999f82f149261187d05e2df910c88e5a4620))
+
+## [1.2.6](https://github.com/jl917/jnpkg/compare/v1.2.5...v1.2.6) (2021-11-30)
+
+
+### Bug Fixes
+
+* global path오류 수정 ([858567c](https://github.com/jl917/jnpkg/commit/858567c38d928ce8741c456e9f56adec3518cefa))
+
+## [1.2.5](https://github.com/jl917/jnpkg/compare/v1.2.4...v1.2.5) (2021-11-30)
+
+
+### Bug Fixes
+
+* local설치 지원 ([f98d778](https://github.com/jl917/jnpkg/commit/f98d7783cb3137b03c20d82faefc7fb8f55a3e9c))
+
 ## [1.2.4](https://github.com/jl917/jnpkg/compare/v1.2.3...v1.2.4) (2021-11-26)
 
 

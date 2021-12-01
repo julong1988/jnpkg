@@ -1,3 +1,10 @@
+## [1.2.16](https://github.com/jl917/jnpkg/compare/v1.2.15...v1.2.16) (2021-12-01)
+
+
+### Bug Fixes
+
+* npmrc추가 ([e3b1f55](https://github.com/jl917/jnpkg/commit/e3b1f557fb460a7ca035ec864e36ec8eaea4cffe))
+
 ## [1.2.15](https://github.com/jl917/jnpkg/compare/v1.2.14...v1.2.15) (2021-12-01)
 
 

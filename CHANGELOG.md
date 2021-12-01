@@ -1,3 +1,11 @@
+## [1.2.9](https://github.com/jl917/jnpkg/compare/v1.2.8...v1.2.9) (2021-12-01)
+
+
+### Bug Fixes
+
+* github, npm 멀티 배포 ([6b68b64](https://github.com/jl917/jnpkg/commit/6b68b64911c457f877161456141a9576ad0ce027))
+* npm token 추가 ([f802ce8](https://github.com/jl917/jnpkg/commit/f802ce866477afa3e993bec110ef180c7d1f1e71))
+
 ## [1.2.8](https://github.com/jl917/jnpkg/compare/v1.2.7...v1.2.8) (2021-11-30)
 
 

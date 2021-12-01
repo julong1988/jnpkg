@@ -48,6 +48,9 @@ To publish multiple modules to NPM, it is best to have a common packaging tool t
 ## Installation
 
 ```sh
+# local
+npm install --save-dev jnpkg
+# global
 npm install -g jnpkg
 ```
 

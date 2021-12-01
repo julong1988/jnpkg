@@ -1,3 +1,10 @@
+## [1.2.11](https://github.com/jl917/jnpkg/compare/v1.2.10...v1.2.11) (2021-12-01)
+
+
+### Bug Fixes
+
+* package registry추가 ([2df9aaf](https://github.com/jl917/jnpkg/commit/2df9aaf9765bb075463f152c3cbeca2a9ad83e4f))
+
 ## [1.2.10](https://github.com/jl917/jnpkg/compare/v1.2.9...v1.2.10) (2021-12-01)
 
 

@@ -4,7 +4,15 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
-    "@semantic-release/npm",
+    [
+      "@amanda-mitchell/semantic-release-npm-multiple",
+      {
+        "registries": {
+          "github": {},
+          "public": {}
+        }
+      }
+    ],
     [
       "@semantic-release/git",
       {

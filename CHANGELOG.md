@@ -1,3 +1,10 @@
+## [1.2.15](https://github.com/jl917/jnpkg/compare/v1.2.14...v1.2.15) (2021-12-01)
+
+
+### Bug Fixes
+
+* readme update ([61810c0](https://github.com/jl917/jnpkg/commit/61810c08a701b1693ba3ede8d4066f04b586563c))
+
 ## [1.2.14](https://github.com/jl917/jnpkg/compare/v1.2.13...v1.2.14) (2021-12-01)
 
 

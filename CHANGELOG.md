@@ -1,3 +1,10 @@
+## [1.2.13](https://github.com/jl917/jnpkg/compare/v1.2.12...v1.2.13) (2021-12-01)
+
+
+### Bug Fixes
+
+* package.json 업데이트 ([ff631f8](https://github.com/jl917/jnpkg/commit/ff631f8709047fd15d21284f3dd7c58cc249a06e))
+
 ## [1.2.12](https://github.com/jl917/jnpkg/compare/v1.2.11...v1.2.12) (2021-12-01)
 
 

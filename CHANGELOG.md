@@ -1,3 +1,10 @@
+## [1.2.19](https://github.com/jl917/jnpkg/compare/v1.2.18...v1.2.19) (2021-12-01)
+
+
+### Bug Fixes
+
+* pagkage name ([3558010](https://github.com/jl917/jnpkg/commit/3558010b4da769f2777d67e033e34a90939e40f0))
+
 ## [1.2.18](https://github.com/jl917/jnpkg/compare/v1.2.17...v1.2.18) (2021-12-01)
 
 

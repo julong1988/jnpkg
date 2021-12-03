@@ -15,3 +15,6 @@ sonar-project.properties
 README.md
 README.*.md
 JNPKG.png
+
+!dist/.github
+!dist/.releaserc.json

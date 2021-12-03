@@ -1,3 +1,10 @@
+## [1.2.23-next.5](https://github.com/jl917/jnpkg/compare/v1.2.23-next.4...v1.2.23-next.5) (2021-12-03)
+
+
+### Bug Fixes
+
+* npmignore 수정 ([9997a95](https://github.com/jl917/jnpkg/commit/9997a95c9aba51c840c481a9319d55bc3a5d4abb))
+
 ## [1.2.23-next.4](https://github.com/jl917/jnpkg/compare/v1.2.23-next.3...v1.2.23-next.4) (2021-12-03)
 
 

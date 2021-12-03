@@ -1,3 +1,10 @@
+## [1.2.23-next.4](https://github.com/jl917/jnpkg/compare/v1.2.23-next.3...v1.2.23-next.4) (2021-12-03)
+
+
+### Bug Fixes
+
+* ignore 해제 ([e1e69e9](https://github.com/jl917/jnpkg/commit/e1e69e97958a247aa1c24e961822e6363c4ba7ac))
+
 ## [1.2.23-next.3](https://github.com/jl917/jnpkg/compare/v1.2.23-next.2...v1.2.23-next.3) (2021-12-03)
 
 

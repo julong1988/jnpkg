@@ -26,6 +26,8 @@ const init = async () => {
 
   // copy files
   copySync(resolve(__dirname, './template'), './');
+  copySync(resolve(__dirname, './template/.github'), './');
+  copySync(resolve(__dirname, './template/.releaserc.json'), './');
 
   // install dependencies
   execaCommandSync('npm install', { stdio: 'inherit' });

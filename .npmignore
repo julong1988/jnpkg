@@ -16,5 +16,5 @@ README.md
 README.*.md
 JNPKG.png
 
-!dist/.github
-!dist/.releaserc.json
+!dist/*/.github
+!dist/*/.releaserc.json

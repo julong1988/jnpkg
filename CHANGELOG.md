@@ -1,3 +1,10 @@
+## [1.2.23-next.2](https://github.com/jl917/jnpkg/compare/v1.2.23-next.1...v1.2.23-next.2) (2021-12-03)
+
+
+### Bug Fixes
+
+* getBinPath 오류 수정 ([384c03c](https://github.com/jl917/jnpkg/commit/384c03c417851b687adcdeea55c9d37f7bf27ab6))
+
 ## [1.2.23-next.1](https://github.com/jl917/jnpkg/compare/v1.2.22...v1.2.23-next.1) (2021-12-03)
 
 

@@ -1,3 +1,11 @@
+## [1.2.23-next.3](https://github.com/jl917/jnpkg/compare/v1.2.23-next.2...v1.2.23-next.3) (2021-12-03)
+
+
+### Bug Fixes
+
+* publishConfig 추가 ([197e362](https://github.com/jl917/jnpkg/commit/197e3628f331e2f1f65d5949b7ecc480ed283ef3)), closes [#37](https://github.com/jl917/jnpkg/issues/37)
+* 히든파일 copy오류 수정 [#38](https://github.com/jl917/jnpkg/issues/38) ([711a8c4](https://github.com/jl917/jnpkg/commit/711a8c4a9f8e633c38efef05fa9cf1ae441e3477))
+
 ## [1.2.23-next.2](https://github.com/jl917/jnpkg/compare/v1.2.23-next.1...v1.2.23-next.2) (2021-12-03)
 
 

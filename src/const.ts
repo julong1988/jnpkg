@@ -28,6 +28,9 @@ export const PACKAGE_EX = {
     watch: 'jnpkg watch',
     build: 'jnpkg build',
   },
+  publishConfig: {
+    access: 'public',
+  }
 };
 
 export const QUESTIONS = [

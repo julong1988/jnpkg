@@ -12,44 +12,6 @@
 * refactor ([6cb1c8b](https://github.com/jl917/jnpkg/commit/6cb1c8bda04011a23b1311357d6160635533915b))
 * 히든파일 copy오류 수정 [#38](https://github.com/jl917/jnpkg/issues/38) ([711a8c4](https://github.com/jl917/jnpkg/commit/711a8c4a9f8e633c38efef05fa9cf1ae441e3477))
 
-## [1.2.23-next.6](https://github.com/jl917/jnpkg/compare/v1.2.23-next.5...v1.2.23-next.6) (2021-12-03)
-
-
-### Bug Fixes
-
-* ignore ([cf7330b](https://github.com/jl917/jnpkg/commit/cf7330b6a72c6cb8bd856a626792e9bcf0802f2b))
-
-## [1.2.23-next.5](https://github.com/jl917/jnpkg/compare/v1.2.23-next.4...v1.2.23-next.5) (2021-12-03)
-
-
-### Bug Fixes
-
-* npmignore 수정 ([9997a95](https://github.com/jl917/jnpkg/commit/9997a95c9aba51c840c481a9319d55bc3a5d4abb))
-
-## [1.2.23-next.4](https://github.com/jl917/jnpkg/compare/v1.2.23-next.3...v1.2.23-next.4) (2021-12-03)
-
-
-### Bug Fixes
-
-* ignore 해제 ([e1e69e9](https://github.com/jl917/jnpkg/commit/e1e69e97958a247aa1c24e961822e6363c4ba7ac))
-
-## [1.2.23-next.3](https://github.com/jl917/jnpkg/compare/v1.2.23-next.2...v1.2.23-next.3) (2021-12-03)
-
-
-### Bug Fixes
-
-* publishConfig 추가 ([197e362](https://github.com/jl917/jnpkg/commit/197e3628f331e2f1f65d5949b7ecc480ed283ef3)), closes [#37](https://github.com/jl917/jnpkg/issues/37)
-* 히든파일 copy오류 수정 [#38](https://github.com/jl917/jnpkg/issues/38) ([711a8c4](https://github.com/jl917/jnpkg/commit/711a8c4a9f8e633c38efef05fa9cf1ae441e3477))
-
-## [1.2.23-next.2](https://github.com/jl917/jnpkg/compare/v1.2.23-next.1...v1.2.23-next.2) (2021-12-03)
-
-
-### Bug Fixes
-
-* getBinPath 오류 수정 ([384c03c](https://github.com/jl917/jnpkg/commit/384c03c417851b687adcdeea55c9d37f7bf27ab6))
-
-## [1.2.23-next.1](https://github.com/jl917/jnpkg/compare/v1.2.22...v1.2.23-next.1) (2021-12-03)
-
 
 ### Bug Fixes
 

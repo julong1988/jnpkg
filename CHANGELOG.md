@@ -15,13 +15,6 @@
 
 ### Bug Fixes
 
-* refactor ([6cb1c8b](https://github.com/jl917/jnpkg/commit/6cb1c8bda04011a23b1311357d6160635533915b))
-
-## [1.2.22](https://github.com/jl917/jnpkg/compare/v1.2.21...v1.2.22) (2021-12-01)
-
-
-### Bug Fixes
-
 * rollback ([de98b09](https://github.com/jl917/jnpkg/commit/de98b09f59dc2433fce18aa79c5bffa67fd7b431))
 
 ## [1.2.21](https://github.com/jl917/jnpkg/compare/v1.2.20...v1.2.21) (2021-12-01)

@@ -1,3 +1,24 @@
+# [2.0.0-next.1](https://github.com/jl917/jnpkg/compare/v1.2.23...v2.0.0-next.1) (2021-12-04)
+
+
+### Bug Fixes
+
+* config기능 추가 ([637c2a5](https://github.com/jl917/jnpkg/commit/637c2a5ebfd2c1ba3c21f6c43c5a00bf6a23ca8f)), closes [#36](https://github.com/jl917/jnpkg/issues/36)
+* rollback ([3f9c268](https://github.com/jl917/jnpkg/commit/3f9c268e3ff367320e0e7aba3d93e8758f6eed47))
+
+
+### Features
+
+* jest환경 샘플링 추가, npmignore추가 ([db5f0de](https://github.com/jl917/jnpkg/commit/db5f0de13d9692075d7dbe4c4a08f870c53028f5))
+
+
+### BREAKING CHANGES
+
+* 리뉴얼
+* refactor
+
+Closes
+
 ## [1.2.23](https://github.com/jl917/jnpkg/compare/v1.2.22...v1.2.23) (2021-12-04)
 
 

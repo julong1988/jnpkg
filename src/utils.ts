@@ -1,7 +1,7 @@
 import { resolve } from 'path';
 import fs from 'fs-extra';
 import { execaCommandSync } from 'execa';
-import { ROOT_TSCONFIG_PATH, SUB_TSCONFIG_PATH, CLIENT_SRC_PATH } from './const';
+import { ROOT_TSCONFIG_PATH, SUB_TSCONFIG_PATH, CLIENT_SRC_PATH, JNPKGRC, SUB_CONFIG_PATH } from './const';
 
 export const getPackage = () => {
   execaCommandSync('npm init -y');
@@ -57,3 +57,13 @@ export const createTmpTsconfig = (outDir) => {
     new Uint8Array(Buffer.from(JSON.stringify(tsconfig))),
   );
 };
+
+export const getConfig = () => {
+  let subConfig: any = {};
+  try {
+    subConfig = JSON.parse(fs.readFileSync(SUB_CONFIG_PATH, 'utf-8'));
+  } catch (error) {
+    console.log('⚠️ Warning: No .jnpkgrc file found.');
+  }
+  return { ...JNPKGRC, ...subConfig };
+}

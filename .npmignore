@@ -16,3 +16,8 @@ JNPKG.png
 
 !dist/template/.github
 !dist/template/.releaserc.json
+
+.babelrc
+build.js
+jest.config.js
+!dist/build.js

@@ -93,6 +93,20 @@ NPM Token and GITHUB Token can refer to the following URL
 
 
 
+## Setting
+```js
+// .jnpkgrc
+{
+  "lib": true, 
+  "es": true,
+  "browser": true,
+  "pkgName": "pkg",
+  "entry": "./src/index.ts",
+}
+```
+
+
+
 ## Maintainers
 
 JuLong - [jl917](https://github.com/jl917)

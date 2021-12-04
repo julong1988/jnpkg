@@ -12,6 +12,8 @@
 * refactor ([6cb1c8b](https://github.com/jl917/jnpkg/commit/6cb1c8bda04011a23b1311357d6160635533915b))
 * 히든파일 copy오류 수정 [#38](https://github.com/jl917/jnpkg/issues/38) ([711a8c4](https://github.com/jl917/jnpkg/commit/711a8c4a9f8e633c38efef05fa9cf1ae441e3477))
 
+## [1.2.22](https://github.com/jl917/jnpkg/compare/v1.2.21...v1.2.22) (2021-12-01)
+
 
 ### Bug Fixes
 

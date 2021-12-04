@@ -57,7 +57,7 @@ export const QUESTIONS = [
   }
 ];
 
-export const JNPKGRC = {
+export const JNPKGRC: Partial<IJConfig> = {
   es: true,
   lib: true,
   browser: true,

@@ -6,10 +6,6 @@ import { createTmpTsconfig, getBinPath } from './utils';
 const BIN_PATH = getBinPath();
 
 type Mode = 'es' | 'lib';
-interface BrowserOptions {
-  pkgName: string;
-  entry: string;
-}
 
 const TS_CONFIG_TEMP = resolve('./tsconfig.tmp.json');
 const BABEL_CONFIG = resolve(__dirname, './babel.config.js');
@@ -44,7 +40,7 @@ export const basicTask = (mode: Mode) => [
   },
 ];
 
-export const browserTask = ({ pkgName, entry }: BrowserOptions) => {
+export const browserTask = ({ pkgName, entry }: Pick<IJConfig, 'pkgName' | 'entry'>) => {
   console.group(resolve(entry));
   return [
   {

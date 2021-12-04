@@ -2,7 +2,7 @@ import { prompt } from 'enquirer';
 import { writeFileSync, copySync } from 'fs-extra';
 import { resolve } from 'path';
 import { execaCommandSync } from 'execa';
-import { PACKAGE_EX, QUESTIONS } from './const';
+import { PACKAGE_EX, QUESTIONS, JNPKGRC } from './const';
 import { getPackage } from './utils';
 
 const init = async () => {
@@ -21,8 +21,9 @@ const init = async () => {
     ...PACKAGE_EX,
   };
 
-  // write package.json
+  // write package.json & .jnpkgrc
   writeFileSync('./package.json', JSON.stringify(newPackage, null, 2));
+  writeFileSync('./.jnpkgrc', JSON.stringify(JNPKGRC, null, 2));
 
   // copy files
   copySync(resolve(__dirname, './template'), './');

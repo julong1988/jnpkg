@@ -12,6 +12,7 @@ tmp
 renovate.json
 .circleci
 sonar-project.properties
-README.md
-README.*.md
 JNPKG.png
+
+!dist/template/.github
+!dist/template/.releaserc.json

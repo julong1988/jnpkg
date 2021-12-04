@@ -1,17 +1,15 @@
 {
   "name": "jnpkg",
-  "version": "1.2.22",
+  "version": "1.2.23",
   "description": "npm module packing tool",
-  "main": "dist/bin/index.js",
+  "main": "dist/index.js",
   "bin": {
-    "jnpkg": "./dist/bin/index.js"
+    "jnpkg": "./dist/index.js"
   },
   "scripts": {
-    "build:bin": "node ./scripts/build.bin",
-    "build:config": "node ./scripts/build.scripts",
-    "build": "node ./scripts/build",
-    "lint": "eslint --ext .js ./src/",
-    "fix": "eslint --fix --ext .js ./src/",
+    "build": "node ./build",
+    "lint": "eslint --ext .js,.ts ./src/",
+    "fix": "eslint --fix --ext .js,.ts ./src/",
     "test": "jest",
     "test:c": "jest --coverage",
     "test:change": "jest --onlyChanged"
@@ -38,23 +36,22 @@
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
     "babel-preset-minify": "^0.5.1",
-    "enquirer": "^2.3.6",
-    "execa": "^5.1.1",
+    "esbuild": "^0.14.1",
     "listr": "^0.14.3",
-    "minimist": "^1.2.5",
     "nodemon": "^2.0.14",
     "typescript": "^4.4.4"
   },
   "devDependencies": {
-    "@amanda-mitchell/semantic-release-npm-multiple": "^2.15.0",
     "@babel/preset-env": "^7.16.4",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "10.0.1",
+    "@types/fs-extra": "^9.0.13",
     "@types/jest": "^27.0.3",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^27.3.1",
+    "enquirer": "^2.3.6",
     "eslint": "^8.2.0",
     "eslint-config-airbnb": "^19.0.0",
     "eslint-config-prettier": "^8.3.0",
@@ -64,8 +61,10 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.27.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "execa": "^6.0.0",
     "jest": "^27.3.1",
     "jest-sonar-reporter": "^2.0.0",
+    "minimist": "^1.2.5",
     "prettier": "^2.4.1",
     "pretty-quick": "^3.1.2",
     "semantic-release": "18.0.0"

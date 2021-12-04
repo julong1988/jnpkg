@@ -57,7 +57,7 @@ npm install -g jnpkg
 
 ## 使用
 
-将项目添加到 package.json 文件的scripts中。
+使用 `jnpkg init` 命令生成 `package.json` 文件。
 
 设置main和module，区分CJS和ESM，有利于用户打包时的优化。
 
@@ -79,6 +79,16 @@ watch 模式会根据源文件的修改自动打包到目标。
 然后运行 npm run build 就会在根目录生成cjs(lib目录)和esm(es目录)。
 
 最后我们通过 npm publish 命令就可以正常发布到npm。
+
+或者可以设置 `semantic-release` 自动发布到npm。
+
+`jnpkg init` 命令自动生成 `semantic-release` 相关文件。
+
+NPM Token 和 GITHUB Token 可以参考以下网址
+
+[https://github.com/settings/tokens](https://github.com/settings/tokens)
+
+[https://www.npmjs.com/settings/{username}/tokens](https://www.npmjs.com/settings/{username}/tokens)
 
 
 

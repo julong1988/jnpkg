@@ -58,7 +58,7 @@ npm install -g jnpkg
 
 ## Usage
 
-Add items to the scripts of the package.json file.
+Use the `jnpkg init` command to generate the `package.json` file.
 
 Set main and module to distinguish between CJS and ESM, which is conducive to the optimization of users when packaging.
 
@@ -80,6 +80,16 @@ We put the source files into the src folder of the root directory. (E.g. ./src/i
 Then running npm run build will generate cjs (lib directory) and esm (es directory) in the root directory.
 
 Finally, we can publish to npm normally through the npm publish command.
+
+Or you can set `semantic-release` to automatically publish to npm.
+
+The `jnpkg init` command automatically generates `semantic-release` related files.
+
+NPM Token and GITHUB Token can refer to the following URL
+
+[https://github.com/settings/tokens](https://github.com/settings/tokens)
+
+[https://www.npmjs.com/settings/{username}/tokens](https://www.npmjs.com/settings/{username}/tokens)
 
 
 

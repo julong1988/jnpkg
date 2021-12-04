@@ -7,7 +7,7 @@ const BIN_PATH = getBinPath();
 
 type Mode = 'es' | 'lib';
 interface BrowserOptions {
-  name: string;
+  pkgName: string;
   entry: string;
 }
 
@@ -44,7 +44,9 @@ export const basicTask = (mode: Mode) => [
   },
 ];
 
-export const browserTask = ({ name, entry }: BrowserOptions) => [
+export const browserTask = ({ pkgName, entry }: BrowserOptions) => {
+  console.group(resolve(entry));
+  return [
   {
     title: 'create browser iife version',
     task: () => {
@@ -53,11 +55,11 @@ export const browserTask = ({ name, entry }: BrowserOptions) => [
         bundle: true,
         minify: true,
         sourcemap: true,
-        globalName: name,
+        globalName: pkgName,
         format: 'iife',
         platform: 'browser',
         outfile: './dist/index.js',
       });
     },
   },
-];
+]};

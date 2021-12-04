@@ -92,6 +92,20 @@ NPM Token 和 GITHUB Token 可以参考以下网址
 
 
 
+## 设置
+```js
+// .jnpkgrc
+{
+  "lib": true, 
+  "es": true,
+  "browser": true,
+  "pkgName": "pkg",
+  "entry": "./src/index.ts",
+}
+```
+
+
+
 ## 维护者
 
 JuLong - [jl917](https://github.com/jl917)

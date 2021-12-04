@@ -9,6 +9,8 @@ export const SUB_TSCONFIG_PATH = resolve('./tsconfig.json');
 export const TS_CONFIG_TEMP = resolve('./tsconfig.tmp.json');
 export const BABEL_CONFIG = resolve(__dirname, './babel.config.js');
 
+export const SUB_CONFIG_PATH = resolve('./.jnpkgrc');
+
 const LIB_PATH = './lib/index.js';
 const ES_PATH = './es/index.js';
 
@@ -52,5 +54,13 @@ export const QUESTIONS = [
     message: 'input your package type',
     choices: ['commonjs', 'module'],
     required: true,
-  },
+  }
 ];
+
+export const JNPKGRC = {
+  es: true,
+  lib: true,
+  browser: true,
+  pkgName: 'pkg',
+  entry: './src/index.js',
+};

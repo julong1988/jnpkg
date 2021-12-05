@@ -13,7 +13,7 @@ const init = async () => {
   } catch (e) {
     console.log('%c❗️ out from prompt!', 'color:red');
   }
-  const pkg = getPackage();
+  const pkg = getPackage(true);
   // new package.json
   const newPackage = {
     ...pkg,

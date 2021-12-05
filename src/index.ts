@@ -1,7 +1,7 @@
 import minimist from 'minimist';
 import { prompt } from 'enquirer';
 import { execaCommandSync } from 'execa';
-import { CLIENT_SRC_PATH, BUILD_FILE_PATH } from './const';
+import { CLIENT_SRC_PATH, BUILD_FILE_PATH, BUILD_CLI_FILE_PATH } from './const';
 import { baseOptions, getBinPath } from './utils';
 import init from './init';
 
@@ -14,6 +14,7 @@ const EXTS = ['js', 'jsx', 'ts', 'tsx', 'json', 'mjs', 'cjs'];
 const scripts = {
   watch: `${BIN_PATH}/nodemon -e ${EXTS.join(',')} --watch ${CLIENT_SRC_PATH} ${BUILD_FILE_PATH}`,
   build: `node ${BUILD_FILE_PATH}`,
+  buildCli: `node ${BUILD_CLI_FILE_PATH}`,
   init,
 };
 
@@ -22,7 +23,6 @@ const commands: string[] = Object.keys(scripts);
 // not supported command
 if (argv._[0] && !commands.includes(argv._[0])) {
   console.log('%c❗️ not supported command!', 'color:red');
-  console.log(commands);
   process.exit();
 }
 
@@ -36,7 +36,6 @@ const run = () => {
 
 run()
   .then(({ type }: any) => {
-    console.log(type);
     const command = scripts[type];
     const isFn = typeof command === 'function';
     return isFn ? command() : execaCommandSync(command, { stdio: 'inherit' });

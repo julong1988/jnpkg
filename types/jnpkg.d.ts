@@ -4,4 +4,5 @@ interface IJConfig {
   es: boolean;
   lib: boolean;
   browser: boolean;
+  binEntry: string;
 };

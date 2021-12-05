@@ -2,6 +2,7 @@ import { resolve } from 'path';
 
 export const CLIENT_SRC_PATH = `${resolve('./')}/src`;
 export const BUILD_FILE_PATH = `${resolve(__dirname, './build.js')}`;
+export const BUILD_CLI_FILE_PATH = `${resolve(__dirname, './build.cli.js')}`;
 
 export const ROOT_TSCONFIG_PATH = resolve(__dirname, '../tsconfig.json');
 export const SUB_TSCONFIG_PATH = resolve('./tsconfig.json');

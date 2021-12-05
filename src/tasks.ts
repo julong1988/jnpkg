@@ -41,7 +41,6 @@ export const basicTask = (mode: Mode) => [
 ];
 
 export const browserTask = ({ pkgName, entry }: Pick<IJConfig, 'pkgName' | 'entry'>) => {
-  console.group(resolve(entry));
   return [
   {
     title: 'create browser iife version',
@@ -55,6 +54,25 @@ export const browserTask = ({ pkgName, entry }: Pick<IJConfig, 'pkgName' | 'entr
         format: 'iife',
         platform: 'browser',
         outfile: './dist/index.js',
+      });
+    },
+  },
+]};
+
+export const cliTask = ({ binEntry }: Pick<IJConfig, 'binEntry'>) => {
+  return [
+  {
+    title: 'create node bin file',
+    task: () => {
+      buildSync({
+        entryPoints: [resolve(binEntry)],
+        bundle: true,
+        write: true,
+        platform: 'node',
+        target: ['node12'],
+        outfile: 'dist/index.bin.js',
+        minify: true,
+        banner: { js: '#!/usr/bin/env node' },
       });
     },
   },

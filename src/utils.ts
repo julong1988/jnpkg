@@ -3,8 +3,8 @@ import fs from 'fs-extra';
 import { execaCommandSync } from 'execa';
 import { ROOT_TSCONFIG_PATH, SUB_TSCONFIG_PATH, CLIENT_SRC_PATH, JNPKGRC, SUB_CONFIG_PATH } from './const';
 
-export const getPackage = () => {
-  execaCommandSync('npm init -y');
+export const getPackage = (isInit) => {
+  isInit && execaCommandSync('npm init -y');
   return require(resolve('./package.json'));
 };
 

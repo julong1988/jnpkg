@@ -13,8 +13,16 @@
     "declaration": true,
     "noImplicitAny": false,
     "removeComments": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ]
   },
+  "include": [
+    "./src/**/*",
+    "./types/**/*"
+  ],
   "exclude": [
     "src/**/*.test.js",
     "src/**/*.test.ts"

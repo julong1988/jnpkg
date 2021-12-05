@@ -6,10 +6,6 @@ import { createTmpTsconfig, getBinPath } from './utils';
 const BIN_PATH = getBinPath();
 
 type Mode = 'es' | 'lib';
-interface BrowserOptions {
-  pkgName: string;
-  entry: string;
-}
 
 const TS_CONFIG_TEMP = resolve('./tsconfig.tmp.json');
 const BABEL_CONFIG = resolve(__dirname, './babel.config.js');
@@ -44,8 +40,7 @@ export const basicTask = (mode: Mode) => [
   },
 ];
 
-export const browserTask = ({ pkgName, entry }: BrowserOptions) => {
-  console.group(resolve(entry));
+export const browserTask = ({ pkgName, entry }: Pick<IJConfig, 'pkgName' | 'entry'>) => {
   return [
   {
     title: 'create browser iife version',
@@ -59,6 +54,25 @@ export const browserTask = ({ pkgName, entry }: BrowserOptions) => {
         format: 'iife',
         platform: 'browser',
         outfile: './dist/index.js',
+      });
+    },
+  },
+]};
+
+export const cliTask = ({ binEntry }: Pick<IJConfig, 'binEntry'>) => {
+  return [
+  {
+    title: 'create node bin file',
+    task: () => {
+      buildSync({
+        entryPoints: [resolve(binEntry)],
+        bundle: true,
+        write: true,
+        platform: 'node',
+        target: ['node12'],
+        outfile: 'dist/index.bin.js',
+        minify: true,
+        banner: { js: '#!/usr/bin/env node' },
       });
     },
   },

@@ -1,3 +1,15 @@
+# [2.1.0](https://github.com/jl917/jnpkg/compare/v2.0.0...v2.1.0) (2021-12-05)
+
+
+### Bug Fixes
+
+* type 추가 ([56250a4](https://github.com/jl917/jnpkg/commit/56250a4d23d27d953325631c7aa2439dc5823d6e))
+
+
+### Features
+
+* cli버전 추가 ([b353722](https://github.com/jl917/jnpkg/commit/b353722cd3f1c4f0525d78d042770de6185cd6a8))
+
 # [2.0.0](https://github.com/jl917/jnpkg/compare/v1.2.23...v2.0.0) (2021-12-04)
 
 

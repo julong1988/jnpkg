@@ -13,6 +13,7 @@ const EXTS = ['js', 'jsx', 'ts', 'tsx', 'json', 'mjs', 'cjs'];
 
 const scripts = {
   watch: `${BIN_PATH}/nodemon -e ${EXTS.join(',')} --watch ${CLIENT_SRC_PATH} ${BUILD_FILE_PATH}`,
+  watchCli: `${BIN_PATH}/nodemon -e ${EXTS.join(',')} --watch ${CLIENT_SRC_PATH} ${BUILD_CLI_FILE_PATH}`,
   build: `node ${BUILD_FILE_PATH}`,
   buildCli: `node ${BUILD_CLI_FILE_PATH}`,
   init,

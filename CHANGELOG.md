@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/jl917/jnpkg/compare/v2.1.0...v2.1.1) (2021-12-07)
+
+
+### Bug Fixes
+
+* watch-cli 스크립트 추가 ([89dc7de](https://github.com/jl917/jnpkg/commit/89dc7de52def21034ce4d988d9242cc763ccd93e))
+
 # [2.1.0](https://github.com/jl917/jnpkg/compare/v2.0.0...v2.1.0) (2021-12-05)
 
 

@@ -42,38 +42,41 @@ export const basicTask = (mode: Mode) => [
 
 export const browserTask = ({ pkgName, entry }: Pick<IJConfig, 'pkgName' | 'entry'>) => {
   return [
-  {
-    title: 'create browser iife version',
-    task: () => {
-      buildSync({
-        entryPoints: [resolve(entry)],
-        bundle: true,
-        minify: true,
-        sourcemap: true,
-        globalName: pkgName,
-        format: 'iife',
-        platform: 'browser',
-        outfile: './dist/index.js',
-      });
+    {
+      title: 'create browser iife version',
+      task: () => {
+        buildSync({
+          entryPoints: [resolve(entry)],
+          bundle: true,
+          minify: true,
+          sourcemap: true,
+          globalName: pkgName,
+          format: 'iife',
+          platform: 'browser',
+          outfile: './dist/index.js',
+        });
+      },
     },
-  },
-]};
+  ]
+};
 
 export const cliTask = ({ binEntry }: Pick<IJConfig, 'binEntry'>) => {
   return [
-  {
-    title: 'create node bin file',
-    task: () => {
-      buildSync({
-        entryPoints: [resolve(binEntry)],
-        bundle: true,
-        write: true,
-        platform: 'node',
-        target: ['node12'],
-        outfile: 'dist/index.bin.js',
-        minify: true,
-        banner: { js: '#!/usr/bin/env node' },
-      });
+    {
+      title: 'create node bin file',
+      task: () => {
+        const isSingle = typeof binEntry === 'string';
+        buildSync({
+          bundle: true,
+          write: true,
+          platform: 'node',
+          target: ['node12'],
+          minify: true,
+          banner: { js: '#!/usr/bin/env node' },
+          entryPoints: isSingle ? [resolve(binEntry)] : binEntry.map(e => resolve(e)),
+          ...(isSingle ? { outfile: 'dist/index.bin.js' } : {outdir: 'dist'}),
+        });
+      },
     },
-  },
-]};
+  ]
+};

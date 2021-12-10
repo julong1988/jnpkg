@@ -2,7 +2,7 @@ interface IJConfig {
   pkgName: string;
   entry: string;
   es: boolean;
-  lib: boolean;
+  lib: boolean;;
   browser: boolean;
-  binEntry: string;
+  binEntry: any
 };

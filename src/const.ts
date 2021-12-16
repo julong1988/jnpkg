@@ -19,10 +19,10 @@ export const PACKAGE_EX = {
   main: LIB_PATH,
   module: ES_PATH,
   exports: {
-    import: LIB_PATH,
-    require: ES_PATH,
+    import: ES_PATH,
+    require: LIB_PATH,
   },
-  dependencies: {
+  devDependencies: {
     '@semantic-release/changelog': '6.0.1',
     '@semantic-release/git': '10.0.1',
     'semantic-release': '18.0.0',

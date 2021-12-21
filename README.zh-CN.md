@@ -101,7 +101,7 @@ NPM Token 和 GITHUB Token 可以参考以下网址
   "browser": true,
   "pkgName": "pkg",
   "entry": "./src/index.ts",
-  "binEntry": "./src/index.bin.ts", // only cli build mode
+  "binEntry": ["./src/index.bin.ts"], // only cli build mode
 }
 ```
 

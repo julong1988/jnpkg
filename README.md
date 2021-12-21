@@ -1,4 +1,3 @@
-
 <div align="right">
   Language:
   <a title="English" href="./README.md">🇺🇸</a>
@@ -22,6 +21,7 @@
 ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/jnpkg)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/jl917/jnpkg/Release?label=GitHub%20Action%20build)
 ![CircleCI](https://img.shields.io/circleci/build/gh/jl917/jnpkg?label=Circleci%20build)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjl917%2Fjnpkg.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjl917%2Fjnpkg?ref=badge_shield)
 
 This is a node module packaging tool, which supports Typescript and Standard Javascript languages.
 
@@ -123,3 +123,6 @@ Anyone is welcome to participate in the maintenance and development of this proj
 ## License
 
 [MIT](https://github.com/jl917/jnpkg/blob/master/LICENSE)
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjl917%2Fjnpkg.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjl917%2Fjnpkg?ref=badge_large)

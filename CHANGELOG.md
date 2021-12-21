@@ -1,3 +1,11 @@
+# [2.0.0-next.4](https://github.com/jl917/jnpkg/compare/v2.0.0-next.3...v2.0.0-next.4) (2021-12-21)
+
+
+### Bug Fixes
+
+* binEntry 멀티 지원 ([060cec0](https://github.com/jl917/jnpkg/commit/060cec0896df3dfba5d4b4caf61d2e0a9a55258a))
+* 오류 수정 ([ace4bd3](https://github.com/jl917/jnpkg/commit/ace4bd36c8b09cbcf6e645774b01c338cc76d14e))
+
 # [2.0.0-next.3](https://github.com/jl917/jnpkg/compare/v2.0.0-next.2...v2.0.0-next.3) (2021-12-07)
 
 

@@ -15,7 +15,8 @@
     "test:change": "jest --onlyChanged"
   },
   "files": [
-    "dist"
+    "dist",
+    "./tsconfig.json"
   ],
   "repository": {
     "type": "git",

@@ -1,3 +1,10 @@
+# [2.0.0-next.9](https://github.com/jl917/jnpkg/compare/v2.0.0-next.8...v2.0.0-next.9) (2021-12-22)
+
+
+### Bug Fixes
+
+* subtsconfig debug ([6593057](https://github.com/jl917/jnpkg/commit/659305724dd0b77b26556e4d061ac1b919678e2c))
+
 # [2.0.0-next.8](https://github.com/jl917/jnpkg/compare/v2.0.0-next.7...v2.0.0-next.8) (2021-12-22)
 
 

@@ -14,6 +14,9 @@
     "test:c": "jest --coverage",
     "test:change": "jest --onlyChanged"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jl917/jnpkg.git"

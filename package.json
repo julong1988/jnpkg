@@ -16,7 +16,7 @@
   },
   "files": [
     "dist",
-    "./tsconfig.json"
+    "tsconfig.json"
   ],
   "repository": {
     "type": "git",

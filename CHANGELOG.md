@@ -1,3 +1,10 @@
+# [2.0.0-next.5](https://github.com/jl917/jnpkg/compare/v2.0.0-next.4...v2.0.0-next.5) (2021-12-22)
+
+
+### Bug Fixes
+
+* auto pr add ([c603713](https://github.com/jl917/jnpkg/commit/c6037133adc3dde0d5e310f64d0e13d83dcc51d6))
+
 # [2.0.0-next.4](https://github.com/jl917/jnpkg/compare/v2.0.0-next.3...v2.0.0-next.4) (2021-12-21)
 
 

@@ -1,3 +1,12 @@
+# [2.0.0-next.6](https://github.com/jl917/jnpkg/compare/v2.0.0-next.5...v2.0.0-next.6) (2021-12-22)
+
+
+### Bug Fixes
+
+* init package 수정 ([d209272](https://github.com/jl917/jnpkg/commit/d209272dbe993caa4489f23bb660fd4676cdce0e))
+* npm tsconfig 추가 ([2305622](https://github.com/jl917/jnpkg/commit/2305622a81e37bc44b2393ac0540413391b4625d))
+* release role 변경 ([4a6413b](https://github.com/jl917/jnpkg/commit/4a6413b9cd72385d32a894395a7aa24def9290dd))
+
 # [2.0.0-next.5](https://github.com/jl917/jnpkg/compare/v2.0.0-next.4...v2.0.0-next.5) (2021-12-22)
 
 

@@ -1,3 +1,10 @@
+# [2.0.0-next.8](https://github.com/jl917/jnpkg/compare/v2.0.0-next.7...v2.0.0-next.8) (2021-12-22)
+
+
+### Bug Fixes
+
+* sub tsconfig 파일 불러오기 오류 수정 ([767481d](https://github.com/jl917/jnpkg/commit/767481d96d990965105e85fed005666d635b0075))
+
 # [2.0.0-next.7](https://github.com/jl917/jnpkg/compare/v2.0.0-next.6...v2.0.0-next.7) (2021-12-22)
 
 

@@ -1,3 +1,10 @@
+# [2.0.0-next.7](https://github.com/jl917/jnpkg/compare/v2.0.0-next.6...v2.0.0-next.7) (2021-12-22)
+
+
+### Bug Fixes
+
+* tsconfig추가 ([c9b0683](https://github.com/jl917/jnpkg/commit/c9b0683a78b066c9a38fec77b9e13aa2723e24cd))
+
 # [2.0.0-next.6](https://github.com/jl917/jnpkg/compare/v2.0.0-next.5...v2.0.0-next.6) (2021-12-22)
 
 

@@ -22,6 +22,10 @@ export const PACKAGE_EX = {
     import: ES_PATH,
     require: LIB_PATH,
   },
+  files: [
+    'dist',
+    './tscofnig.json',
+  ],
   devDependencies: {
     '@semantic-release/changelog': '6.0.1',
     '@semantic-release/git': '10.0.1',

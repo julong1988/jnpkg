@@ -1,3 +1,10 @@
+# [2.0.0-next.10](https://github.com/jl917/jnpkg/compare/v2.0.0-next.9...v2.0.0-next.10) (2021-12-22)
+
+
+### Bug Fixes
+
+* error코드 추가 ([b21f837](https://github.com/jl917/jnpkg/commit/b21f837f672530917a22191233121e007b588d7f))
+
 # [2.0.0-next.9](https://github.com/jl917/jnpkg/compare/v2.0.0-next.8...v2.0.0-next.9) (2021-12-22)
 
 

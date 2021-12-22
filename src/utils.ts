@@ -37,6 +37,7 @@ export const createTmpTsconfig = (outDir) => {
   try {
     subTsconfig = require(SUB_TSCONFIG_PATH);
   } catch (error) {
+    console.log(error)
     console.log('⚠️ Warning: No sub tsconfig file found.');
   }
   tsconfig = {

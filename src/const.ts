@@ -5,7 +5,7 @@ export const BUILD_FILE_PATH = `${resolve(__dirname, './build.js')}`;
 export const BUILD_CLI_FILE_PATH = `${resolve(__dirname, './build.cli.js')}`;
 
 export const ROOT_TSCONFIG_PATH = resolve(__dirname, '../tsconfig.json');
-export const SUB_TSCONFIG_PATH = resolve('./tsconfig.json');
+export const SUB_TSCONFIG_PATH = resolve('../tsconfig.json');
 
 export const TS_CONFIG_TEMP = resolve('./tsconfig.tmp.json');
 export const BABEL_CONFIG = resolve(__dirname, './babel.config.js');

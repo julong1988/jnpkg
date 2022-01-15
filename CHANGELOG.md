@@ -1,3 +1,18 @@
+## [2.1.3](https://github.com/jl917/jnpkg/compare/v2.1.2...v2.1.3) (2022-01-15)
+
+
+### Bug Fixes
+
+* auto pr add ([c603713](https://github.com/jl917/jnpkg/commit/c6037133adc3dde0d5e310f64d0e13d83dcc51d6))
+* error코드 추가 ([b21f837](https://github.com/jl917/jnpkg/commit/b21f837f672530917a22191233121e007b588d7f))
+* init package 수정 ([d209272](https://github.com/jl917/jnpkg/commit/d209272dbe993caa4489f23bb660fd4676cdce0e))
+* licence, release 룰 추가 ([fdc84a6](https://github.com/jl917/jnpkg/commit/fdc84a63acfa31ea341f5e0e2f0bab4f6b0188d4))
+* npm tsconfig 추가 ([2305622](https://github.com/jl917/jnpkg/commit/2305622a81e37bc44b2393ac0540413391b4625d))
+* release role 변경 ([4a6413b](https://github.com/jl917/jnpkg/commit/4a6413b9cd72385d32a894395a7aa24def9290dd))
+* sub tsconfig 파일 불러오기 오류 수정 ([767481d](https://github.com/jl917/jnpkg/commit/767481d96d990965105e85fed005666d635b0075))
+* subtsconfig debug ([6593057](https://github.com/jl917/jnpkg/commit/659305724dd0b77b26556e4d061ac1b919678e2c))
+* tsconfig추가 ([c9b0683](https://github.com/jl917/jnpkg/commit/c9b0683a78b066c9a38fec77b9e13aa2723e24cd))
+
 ## [2.1.2](https://github.com/jl917/jnpkg/compare/v2.1.1...v2.1.2) (2021-12-21)
 
 

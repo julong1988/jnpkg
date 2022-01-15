@@ -1,3 +1,10 @@
+# [2.0.0-next.11](https://github.com/jl917/jnpkg/compare/v2.0.0-next.10...v2.0.0-next.11) (2022-01-15)
+
+
+### Bug Fixes
+
+* licence, release 룰 추가 ([fdc84a6](https://github.com/jl917/jnpkg/commit/fdc84a63acfa31ea341f5e0e2f0bab4f6b0188d4))
+
 # [2.0.0-next.10](https://github.com/jl917/jnpkg/compare/v2.0.0-next.9...v2.0.0-next.10) (2021-12-22)
 
 

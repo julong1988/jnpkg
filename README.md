@@ -102,7 +102,6 @@ NPM Token and GITHUB Token can refer to the following URL
   "browser": true,
   "pkgName": "pkg",
   "entry": "./src/index.ts",
-  "binEntry": ["./src/index.bin.ts"], // only cli build mode
 }
 ```
 

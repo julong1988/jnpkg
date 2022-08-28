@@ -1,3 +1,16 @@
+# [2.2.0](https://github.com/jl917/jnpkg/compare/v2.1.3...v2.2.0) (2022-08-28)
+
+
+### Bug Fixes
+
+* build cli 제거 ([82e97e8](https://github.com/jl917/jnpkg/commit/82e97e8fc6248b3c2febd229de4adfa9062911a6))
+* 빌드 환경 변경 ([5260dc5](https://github.com/jl917/jnpkg/commit/5260dc505237c62d9a53a65cfd08da40840f2594))
+
+
+### Features
+
+*  cli build 관련기능 제거 ([baa1f01](https://github.com/jl917/jnpkg/commit/baa1f013e145cf2dfab58a6b45cf62ac89090914))
+
 ## [2.1.3](https://github.com/jl917/jnpkg/compare/v2.1.2...v2.1.3) (2022-01-15)
 
 

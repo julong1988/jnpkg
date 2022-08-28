@@ -59,24 +59,3 @@ export const browserTask = ({ pkgName, entry }: Pick<IJConfig, 'pkgName' | 'entr
     },
   ]
 };
-
-export const cliTask = ({ binEntry }: Pick<IJConfig, 'binEntry'>) => {
-  return [
-    {
-      title: 'create node bin file',
-      task: () => {
-        const isSingle = typeof binEntry === 'string';
-        buildSync({
-          bundle: true,
-          write: true,
-          platform: 'node',
-          target: ['node12'],
-          minify: true,
-          banner: { js: '#!/usr/bin/env node' },
-          entryPoints: isSingle ? [resolve(binEntry)] : binEntry.map(e => resolve(e)),
-          ...(isSingle ? { outfile: 'dist/index.bin.js' } : {outdir: 'dist'}),
-        });
-      },
-    },
-  ]
-};

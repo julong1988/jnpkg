@@ -1,6 +1,6 @@
 {
   "name": "jnpkg",
-  "version": "2.0.0-next.11",
+  "version": "2.0.0-next.12",
   "description": "npm module packing tool",
   "main": "dist/index.js",
   "bin": {
